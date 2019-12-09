@@ -58,11 +58,29 @@
     <Compile Include="Form2.Designer.cs">
       <DependentUpon>Form2.cs</DependentUpon>
     </Compile>
-    <Compile Include="Form3.cs">
+    <Compile Include="Form3_4rooms.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form3.Designer.cs">
-      <DependentUpon>Form3.cs</DependentUpon>
+    <Compile Include="Form3_4rooms.Designer.cs">
+      <DependentUpon>Form3_4rooms.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form4_3rooms.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form4_3rooms.Designer.cs">
+      <DependentUpon>Form4_3rooms.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form5_2rooms.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form5_2rooms.Designer.cs">
+      <DependentUpon>Form5_2rooms.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form6_1room.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form6_1room.Designer.cs">
+      <DependentUpon>Form6_1room.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -72,8 +90,17 @@
     <EmbeddedResource Include="Form2.resx">
       <DependentUpon>Form2.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Form3.resx">
-      <DependentUpon>Form3.cs</DependentUpon>
+    <EmbeddedResource Include="Form3_4rooms.resx">
+      <DependentUpon>Form3_4rooms.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form4_3rooms.resx">
+      <DependentUpon>Form4_3rooms.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form5_2rooms.resx">
+      <DependentUpon>Form5_2rooms.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form6_1room.resx">
+      <DependentUpon>Form6_1room.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

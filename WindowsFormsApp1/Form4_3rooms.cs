@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace WindowsFormsApp1
 {
-    public partial class Form3 : Form
+    public partial class Form4_3rooms : Form
     {
-        public Form3()
+        public Form4_3rooms()
         {
             InitializeComponent();
         }
@@ -35,7 +35,7 @@ namespace WindowsFormsApp1
 
         private void Button_nextRoom_Click(object sender, EventArgs e)
         {
-            bool text1IsFull=false;
+            bool text1IsFull = false;
 
 
             if (!text1IsFull)
@@ -66,9 +66,6 @@ namespace WindowsFormsApp1
                 text2IsFull = true;
             }
 
-
-
-
         }
 
         private void Button_room3Next_Click(object sender, EventArgs e)
@@ -86,21 +83,6 @@ namespace WindowsFormsApp1
             }
         }
 
-        private void Button_room4Next_Click(object sender, EventArgs e)
-        {
-            bool text4IsFull = false;
-
-
-            if (!text4IsFull)
-            {
-                textBox_room4SqFt.Text = textBox_results.Text;
-                textBox_length.Clear();
-                textBox_width.Clear();
-                textBox_results.Clear();
-                text4IsFull = true;
-            }
-        }
-
         private void Textbox_totalSqFt_TextChanged(object sender, EventArgs e)
         {
 
@@ -111,14 +93,13 @@ namespace WindowsFormsApp1
             double room1;
             double room2;
             double room3;
-            double room4;
 
-            double.TryParse(textBox_room4SqFt.Text, out room4);
             double.TryParse(textBox_room3SqFt.Text, out room3);
             double.TryParse(textBox_room2SqFt.Text, out room2);
             double.TryParse(textBox_room1SqFt.Text, out room1);
-            textbox_totalSqFt.Text = (room1 + room2 + room3 + room4).ToString();
+            textbox_totalSqFt.Text = (room1 + room2 + room3 ).ToString();
         }
+
     }
 }
 
