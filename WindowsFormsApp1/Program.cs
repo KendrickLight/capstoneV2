@@ -16,12 +16,12 @@ namespace WindowsFormsApp1
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form1());
+            Application.Run(new Form1()); 
             Application.Run(new Form2());
             Application.Run(new Form3_4rooms());
-            Application.Run(new Form4_3rooms());
-            Application.Run(new Form5_2rooms());
-            Application.Run(new Form6_1room());
+            ////Application.Run(new Form4_3rooms());
+            ////Application.Run(new Form5_2rooms());
+            ////Application.Run(new Form6_1room());
 
         }
 
